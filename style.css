@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100wv;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+  height: 550px;
+  box-shadow: 15px 5px 5px whitesmoke, -5px -15px 5px whitesmoke;
+  border-radius: 20px;
+  position: relative;
+}
+
+.hledat {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: flex;
+}
+
+.container input {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkslateblue;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid darkslateblue;
+}
+
+.container button {
+  width: 40px;
+  height: 32px;
+  background: transparent;
+  color: darkslateblue;
+  cursor: pointer;
+  border: 2px solid darkslateblue;
+  transition: 0.1s ease-in;
+}
+
+.container button:hover {
+  color: white;
+  background: darkslateblue;
+}
+
+.container h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.container img {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: darkslateblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content h6 {
+  font-size: 14px;
+  margin: 18px;
+}
+
+.vnitrek {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  color: white;
+}
